@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-flex">
+            <div class="input-container">
+                <span>Day</span>
+                <input type="number" id="day">
+                <small class="error-day"></small>
+            </div>
+             <div class="input-container">
+                <span>Month</span>
+                <input type="number" id="month">
+                <small class="error-month"></small>
+            </div>
+             <div class="input-container">
+                <span>Year</span>
+                <input type="number" id="year">
+                <small class="error-year"></small>
+            </div>
+        </div>
+        <button class="submit-button" >
+            <img src="assets/images/icon-arrow.svg" alt="arrow">
+        </button>
+        <div class="output">
+            <h1><span class="output-year">--</span><div>year</div></h1>
+            <h1><span class="output-month">--</span><div>month</div></h1>
+            <h1><span class="output-day">--</span><div>day</div></h1>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
